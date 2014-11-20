@@ -1,4 +1,4 @@
-//goal: make Arduino blink like traffic light
+// make Arduino blink like a traffic light
 
 #define GREEN 13                // GREEN is pin 13
 #define YELLOW 12
@@ -8,11 +8,11 @@
 void setup () 
 {
   pinMode (GREEN, OUTPUT);      // pin 13 is output
-  digitalWrite  (GREEN,HIGH);   // pin 13 is on
+  digitalWrite  (GREEN,LOW);    // turn the LEDs off
   pinMode (YELLOW, OUTPUT);
-  digitalWrite (YELLOW,HIGH);
+  digitalWrite (YELLOW,LOW);
   pinMode (RED,OUTPUT);
-  digitalWrite (RED,HIGH);
+  digitalWrite (RED,LOW);
 }
 
 
